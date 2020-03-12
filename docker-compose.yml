@@ -5,8 +5,8 @@ mysql:
   environment:
     - MYSQL_ROOT_PASSWORD=
     - MYSQL_ALLOW_EMPTY_PASSWORD=false
-    - MYSQL_USER=feat_1
-    - MYSQL_PASSWORD=feat_1
-    - MYSQL_DATABASE=feat_1
+    - MYSQL_USER=master2
+    - MYSQL_PASSWORD=master2
+    - MYSQL_DATABASE=master2
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"
